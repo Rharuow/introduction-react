@@ -1,8 +1,12 @@
 import React from 'react'
 
+let isCool = true
+
 export default (props) => 
     <div>
         <h1>{props.value}</h1>
+        <h2>is cool ? {isCool ? "Yes" : "No"}</h2>
+        <p>{Math.random()}</p>
     </div>
 
 
