@@ -12,9 +12,9 @@ ReactDOM.render(
     <div>
         <Family lastName="Silvia">
             <Member name="Arthur"/>
-            {/* <Member name="Rafael"/>
+            <Member name="Rafael"/>
             <Member name="Clara"/>
-            <Member name="Harysson"/> */}
+            <Member name="Harysson"/>
         </Family>
     </div>,
 el)
