@@ -10,11 +10,11 @@ const el = document.getElementById('root')
 
 ReactDOM.render(
     <div>
-        <Family>
-            <Member name="Arthur" lastName="Silvia"/>
-            <Member name="Rafael" lastName="Silvia"/>
-            <Member name="Clara" lastName="Silvia"/>
-            <Member name="Harysson" lastName="Silvia"/>
+        <Family lastName="Silvia">
+            <Member name="Arthur"/>
+            {/* <Member name="Rafael"/>
+            <Member name="Clara"/>
+            <Member name="Harysson"/> */}
         </Family>
     </div>,
 el)
