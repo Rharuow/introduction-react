@@ -2,12 +2,14 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 // import First from './components/FirstComponent'
 // import A, { CompB as B } from './components/DoubleComponents'
-import MultiElements from './components/MultipleElements'
+// import MultiElements from './components/MultipleElements'
+import Family from './components/Family'
+
 
 const el = document.getElementById('root')
 
 ReactDOM.render(
     <div>
-        <MultiElements/>
+        <Family name="Silva" />
     </div>,
 el)
