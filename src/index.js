@@ -6,6 +6,6 @@ const el = document.getElementById('root')
 
 ReactDOM.render(
     <div>
-        <First/>
+        <First value="Primeiro Component (from props)"/>
     </div>,
 el)
