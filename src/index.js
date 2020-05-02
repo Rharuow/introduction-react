@@ -7,12 +7,13 @@ import ReactDOM from 'react-dom'
 // import Member from './components/Member'
 // import CompWithFunction from './components/CompWithFunction'
 // import FatherComponent from './components/Daddy'
-import ComponentClass from './components/ComponentClass'
+// import ComponentClass from './components/ComponentClass'
+import Counter from './components/Counter'
 
 const el = document.getElementById('root')
 
 ReactDOM.render(
     <div>
-        <ComponentClass value="It's value from props"/>
+        <Counter value={0}/>
     </div>,
 el)
