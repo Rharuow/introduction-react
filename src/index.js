@@ -5,13 +5,13 @@ import ReactDOM from 'react-dom'
 // import MultiElements from './components/MultipleElements'
 // import Family from './components/Family'
 // import Member from './components/Member'
-import CompWithFunction from './components/CompWithFunction'
-
+// import CompWithFunction from './components/CompWithFunction'
+import FatherComponent from './components/Daddy'
 
 const el = document.getElementById('root')
 
 ReactDOM.render(
     <div>
-        <CompWithFunction/>
+        <FatherComponent/>
     </div>,
 el)
