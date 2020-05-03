@@ -17,7 +17,7 @@ export default class Counter extends Component {
     //     // this.props.value++
     // }
 
-    plus () {
+    plus = () => {
         console.log(this)
         // this.props.value++
     }
