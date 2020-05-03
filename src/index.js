@@ -8,12 +8,13 @@ import ReactDOM from 'react-dom'
 // import CompWithFunction from './components/CompWithFunction'
 // import FatherComponent from './components/Daddy'
 // import ComponentClass from './components/ComponentClass'
-import Counter from './components/Counter'
+// import Counter from './components/Counter'
+import Hooks from './components/Hooks'
 
 const el = document.getElementById('root')
 
 ReactDOM.render(
     <div>
-        <Counter value={0}/>
+        <Hooks initialValue={100}/>
     </div>,
 el)
